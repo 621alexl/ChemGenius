@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conversionlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit Conversion"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/categoryspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/startvalue"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="From"
+                android:inputType="number|numberSigned|numberDecimal" />
+
+            <Spinner
+                android:id="@+id/startspinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/endvalue"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:hint="To"
+                android:selectAllOnFocus="false"
+                android:textColor="@drawable/edit_text_selector" />
+
+            <Spinner
+                android:id="@+id/endspinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:spinnerMode="dialog" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelconversionbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/calcbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert" />
+
+    </LinearLayout>
+
+</LinearLayout>

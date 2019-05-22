@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Chem Genius</string>
+
+    <string-array name="categoryarray">
+        <item>Length</item>
+        <item>Volume</item>
+        <item>Pressure</item>
+        <item>Mass</item>
+        <item>Temperature</item>
+    </string-array>
+    <string-array name="lengtharray">
+        <item>Terameter (Tm)</item>
+        <item>Gigameter (Gm)</item>
+        <item>Megameter (Mm)</item>
+        <item>Kilometer (km)</item>
+        <item>Hectameter (hm)</item>
+        <item>Decameter (Dm)</item>
+        <item>Meter (m)</item>
+        <item>Decimeter (dm)</item>
+        <item>Centimeter (cm)</item>
+        <item>Millimeter (mm)</item>
+        <item>Micrometer (um)</item>
+        <item>Nanometer (nm)</item>
+        <item>Picometer (pm)</item>
+
+    </string-array>
+    <string-array name="volumearray">
+        <item>Terraliter (TL)</item>
+        <item>Gigaliter (GL)</item>
+        <item>Megaliter (ML)</item>
+        <item>Kiloliter (kL)</item>
+        <item>Hectaliter (hL)</item>
+        <item>Decaliter (DL)</item>
+        <item>Liter (L)</item>
+        <item>Deciliter (dL)</item>
+        <item>Centiliter (cL)</item>
+        <item>Milliliter (mL)</item>
+        <item>Microliter (uL)</item>
+        <item>Nanoliter (nL)</item>
+        <item>Picoliter (pL)</item>
+    </string-array>
+    <string-array name="pressurearray">
+        <item>Atmostphere (atm)</item>
+        <item>Bar (Bar)</item>
+        <item>Pascal (Pa)</item>
+        <item>Kilopascal (kPa)</item>
+        <item>Torr (torr)</item>
+        <item>Milimeters Mercury (mmHg)</item>
+    </string-array>
+    <string-array name="massarray">
+        <item>Terragram (Tg)</item>
+        <item>Gigagram (Gg)</item>
+        <item>Megagram (Mg)</item>
+        <item>Kilogram (kg)</item>
+        <item>Hectagram (hg)</item>
+        <item>Decagram (Dg)</item>
+        <item>Gram (g)</item>
+
+        <item>Decigram (dg)</item>
+        <item>Centigram (cg)</item>
+        <item>Milligram (mg)</item>
+        <item>Micogram (ug)</item>
+        <item>Nanogram (ng)</item>
+        <item>Picogram (pg)</item>
+    </string-array>
+
+    <string-array name="temparray">
+        <item>Kelvin (K)</item>
+        <item>Celsius (C)</item>
+        <item>Fahrenheit (F)</item>
+    </string-array>
+    <string-array name="molearray">
+        <item>Mole (mol)</item>
+    </string-array>
+    <string-array name="formulaarray">
+        <item>Atomic Structure</item>
+        <item>Equilibrium</item>
+        <item>Kinetics</item>
+        <item>Gases, Liquids, and Solutions</item>
+        <item>Thermodynamics / Electrochemistry</item>
+    </string-array>
+
+    <string-array name="search_category_array">
+        <item>Molecular Formula</item>
+        <item>Compound Name</item>
+        <item>CID</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>

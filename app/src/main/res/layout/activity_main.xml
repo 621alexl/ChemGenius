@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.myapplication.LauncherActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/camerabtn"
+        android:layout_width="95sp"
+        android:layout_height="95sp"
+        android:background="@drawable/newcamera"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/blueliner" />
+
+    <Button
+        android:id="@+id/manualbtn"
+        android:layout_width="185sp"
+        android:layout_height="64sp"
+        android:background="@color/colorAccent"
+        android:elevation="0dp"
+        android:fontFamily="sans-serif"
+        android:text="Manual"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/camerabtn"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/formulabtn"
+        android:layout_width="185sp"
+        android:layout_height="64sp"
+        android:background="@color/colorAccent"
+        android:elevation="0dp"
+        android:fontFamily="sans-serif"
+        android:text="Formulas"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/manualbtn"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/conversionbtn"
+        android:layout_width="185sp"
+        android:layout_height="64sp"
+
+
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        android:text="Conversion"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/formulabtn"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/pvnrtbtn"
+        android:layout_width="185sp"
+        android:layout_height="65sp"
+
+
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        android:text="PV = nRT"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/conversionbtn"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/blueliner"
+        android:layout_width="290dp"
+        android:layout_height="98dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/bluelinernew"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
